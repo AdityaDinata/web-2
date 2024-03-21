@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio Aditya Dinata</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgba(217, 215, 225, 0.5);">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portofolio.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-extra">
+                <button class="btn btn-light mode-toggle" id="mode-toggle" onclick="toggleMode()">
+                    <i class="bi bi-sun"></i>
+                    <i class="bi bi-moon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<section class="hero" id="home">
+    <main class="content">
+        <h1>Aditya Dinata <br><span id="typing-text">Welcome <br>To <br> My Website</span></h1>
+    </main>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/adit.png" alt="Tentang Kami" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <h3>Tentang</h3>
+                <p>Nama saya Aditya Dinata, seorang mahasiswa di Universitas Mulawarman, yang sedang menempuh pendidikan di Fakultas Teknik, Program Studi Sistem Informasi. Saat ini saya telah memasuki semester 4 dari perjalanan pendidikan saya.</p>
+                <h3>Biodata</h3>
+                <p>Tanggal Lahir : 28 Juli 2004 <br>
+                No Telpon     : 082252661012 <br>
+                Email         : adityadinata647@gmail.com <br>
+                Umur          : 19 <br>
+                Asal          : Kutai Barat, Kalimantan Timur</p>
+                <h3>Pendidikan</h3>
+                <p>SDN 009 Mook Manaar Bulatn 2009 - 2015 <br>
+                SMPN 1 Linggang Bigung    2015 - 2018 <br>
+                SMAN 1 Linggang Bigung 2018 - 2021 <br>
+                Universitas Mulawarman 2022 - Sekarang</p>
+                <h3>Skill</h3>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Java</div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">MySQL</div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="menu" class="menu bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Certificates</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/menu/sertif1.jpeg" alt="Sertifikat 1" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Sertifikat Inforsa</h3>
+                        <p class="card-text">Anggota Relekat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/menu/sertif2.png" alt="Sertifikat 2" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Sertifikat KMK</h3>
+                        <p class="card-text">Peserta PAB 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/menu/sertif3.jpeg" alt="Sertifikat 3" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Sertifikat Inforsa</h3>
+                        <p class="card-text">Panitia Aplikasi 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/menu/sertif4.jpg" alt="Sertifikat 4" class="card-img-top">
+                    <div class="card-body">
+                        <h3class="card-title">Sertifikat Gamadiksi</h3>
+                        <p class="card-text">Peserta SAMBA 2022</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+                        
+ </section>
+ <section id="contact" class="contact">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form id="contactForm" onsubmit="submitForm(event)">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="chat" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="chat" placeholder="Enter your message for me">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="social text-center mt-4">
+            <a href="https://github.com/AdityaDinata" target="_blank" class="me-3"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://www.facebook.com/aditya.dinata.522" target="_blank" class="me-3"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/adityadinata0/" target="_blank" class="me-3"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/aditya-dinata-970293264/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+</section>
+
+                        <footer class="footer">
+                            <div class="container">
+                                <div class="links text-center mb-3">
+                                    <a href="#home" class="me-3">Home</a>
+                                    <a href="#about" class="me-3">About Me</a>
+                                    <a href="#menu" class="me-3">Certificates</a>
+                                    <a href="#contact">Contact</a>
+                                </div>
+                                <p class="text-center mb-0">Created by <a href="#">adityadinata</a>. &copy; 2024</p>
+                            </div>
+                        </footer>
+                       
+                        
+                        <!-- Bootstrap Bundle with Popper -->
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                        <!-- Feather Icons Script -->
+                        <script>
+                            feather.replace()
+                        </script>
+                       <script src="index.js"></script>
+                        </body>
+                        </html>
